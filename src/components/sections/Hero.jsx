@@ -90,7 +90,7 @@ export default function Hero() {
 
         <motion.div
           ref={frameRef}
-          className="relative mx-auto w-full max-w-[420px] px-4 sm:px-6 lg:px-0"
+          className="relative mx-auto w-full max-w-[420px] lg:px-0"
           style={{
             rotateX: springX,
             rotateY: springY,

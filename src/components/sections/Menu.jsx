@@ -36,7 +36,7 @@ export default function Menu() {
         />
 
         <LayoutGroup>
-          <div className="no-scrollbar -mx-3 mb-10 flex items-center gap-2 overflow-x-auto px-3 pb-2 sm:mx-0 sm:flex-wrap sm:justify-center sm:px-0">
+          <div className="no-scrollbar -mx-4 mb-10 flex items-center gap-2 overflow-x-auto px-4 pb-2 sm:-mx-5 sm:px-5 sm:flex-wrap sm:justify-center lg:-mx-6 lg:px-6">
             {MENU_CATEGORIES.map((name) => {
               const active = category === name
               return (
